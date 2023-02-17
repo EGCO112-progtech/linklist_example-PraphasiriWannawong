@@ -1,6 +1,6 @@
 // self-referential structure                       
 struct Node {                                      
-   int data; // each listNode contains a number 
+   int data;// each listNode contains a number 
    Node *nextPtr; // pointer to next node
 }; // end structure listNode                        
 typedef struct Node LLnode; // synonym for struct listNode
